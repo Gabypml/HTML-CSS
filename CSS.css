@@ -1,0 +1,97 @@
+body {
+
+	width: 90%; 
+	margin:auto;
+	text-align:auto;
+	font-family:Times;
+	color:navy;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-position: right;
+	background-size:cover;
+	/*background: -webkit-linear-gradient(-180deg, rgb(248, 129, 251), rgb(159, 68, 86));
+	background: linear-gradient(-180deg, rgb(248, 129, 251), rgb(159, 68, 86));*/
+	background: url('Artistic-Landscape-4K-Wallpaper-3840x2160') no-repeat bottom right , -webkit-linear-gradient(90deg, rgb(106, 179, 246), rgb(222, 156, 127));
+	background: url('Artistic-Landscape-4K-Wallpaper-3840x2160.jpg') no-repeat bottom right , linear-gradient(90deg, rgb(106, 179, 246), rgb(222, 156, 127));
+	
+	
+}
+
+blockquote {
+	
+
+	background: rgba(192, 192, 192, 0.5);
+	margin:center;
+	font-size :160%;
+	font-style: italic;
+	padding:30px;
+	color : white;
+	border-left:3px solid #842e1b; 
+	margin:80px 0 80px 0; 
+	
+}
+.villageois
+{
+	border-left-color : rgb(255, 255, 255); 
+}
+
+.fermier 
+{
+	border-left-color: black;
+}
+
+header {
+
+	background-color: yellow
+}
+
+.bien {
+
+	color: green;
+	text-transform: uppercase;
+}
+
+.mal {
+
+	color:red;
+	text-transform: uppercase;
+
+}
+tr:nth-child(even) {
+
+	background-color: white; 
+
+}
+tr:nth-child(odd) {
+
+	background-color: silver; 
+}
+
+p:first-of-type {
+
+	font-weight:bold;
+}
+
+li:nth-child(1) {
+
+	background-image: url("bien.png");
+	background-repeat: no-repeat;
+	background-position:280px;
+	padding: 25px 0px;
+}
+
+li:nth-child(2) {
+
+	background-image: url("mal.png");
+	background-repeat: no-repeat;
+	background-position:290px;
+	padding: 25px 0px;
+}
+
+li:nth-child(3) {
+
+	background-image: url("chat.png");
+	background-repeat: no-repeat;
+	background-position:320px;
+	padding: 25px 0px;
+}
